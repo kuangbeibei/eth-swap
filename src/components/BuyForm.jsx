@@ -7,7 +7,6 @@ function BuyForm({tokenBalance, ethBalance, buyTokens}) {
     const ref = useRef(null);
     const [output, setOutput] = useState('0')
 
-
     return <form className="mb-3" onSubmit={(event) => {
         event.preventDefault()
         let etherAmount;
